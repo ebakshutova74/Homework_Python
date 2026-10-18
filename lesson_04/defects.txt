@@ -1,0 +1,18 @@
+Окружение:ОС Windows 10 Pro приложение VS Code (platform linux -- Python 3.12.1, pytest-9.1.1, pluggy-1.6.0
+rootdir: /workspaces/Homework_Python
+collected 32 items)
+ 
+1.Описание ошибки: При запуске pytest test_string_utils.py непредсказуемо изменяет вводимый текст в test_capitalize_positive при значении input_str="ашик-Кериб".
+
+Ожидаемый результат: Ашик-Кериб
+Фактический результат: Ашик-кериб
+
+2. Описание ошибки: При запуске pytest test_string_utils.py непредсказуемо изменяет вводимый текст в test_capitalize_negative при значении input_str="HELLO".
+
+Ожидаемый результат: HELLO
+Фактический результат: Hello
+
+3. Описание ошибки: При запуске pytest test_string_utils.py выдает True вместо False в test_contains_negative при значениях input_str="SkyPro", symbol="".
+ 
+Ожидаемый результат: False
+Фактический результат:True 
