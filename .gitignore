@@ -1,3 +1,8 @@
+screenshots/
+
+.postman/
+postman/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -216,3 +221,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Allure
+allure-results/*
+!allure-results/.gitkeep
+allure-report/*
+!allure-report/.gitkeep
+
+# Allure program
+allure-2.46.2/
+allure-2.46.2.zip
